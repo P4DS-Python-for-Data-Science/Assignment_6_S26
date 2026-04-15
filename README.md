@@ -9,3 +9,4 @@
 - David Hooper
 - Bina Sawani
 - Alexander Ibrahim
+- Timothy Schultz
