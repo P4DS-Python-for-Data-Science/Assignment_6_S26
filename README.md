@@ -11,4 +11,5 @@
 - Alexander Ibrahim
 - Nicholas Dunbar
 - Yoru Li
+- Mick Zeller 🔥
 - Makoto Tomokiyo
