@@ -1,0 +1,49 @@
+!pycodestyle Assignment_6_S26/PhoneNumber.py
+[intentially blank]
+!python -m pytest Assignment_6_S26/
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.14.3, pytest-9.0.2, pluggy-1.6.0
+rootdir: /home/lex/Code/Python/CMUOnlineMini2/Week6/Assignment
+plugins: cov-7.1.0, anyio-4.12.1
+collected 17 items                                                             [0m
+
+Assignment_6_S26/test_phone_number.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[33m                  [100%][0m
+
+[33m=============================== warnings summary ===============================[0m
+Assignment_6_S26/test_phone_number.py::test_invalid
+  /home/lex/Code/Python/CMUOnlineMini2/Week6/Assignment/Assignment_6_S26/test_phone_number.py:48: DeprecationWarning: Bitwise inversion '~' on bool is deprecated and will be removed in Python 3.16. This returns the bitwise inversion of the underlying int object and is usually not what you expect from negating a bool. Use the 'not' operator for boolean negation or ~int(x) if you really want the bitwise inversion of the underlying int.
+    assert(~PhoneNumber.is_valid('2'))
+
+Assignment_6_S26/test_phone_number.py::test_invalid
+  /home/lex/Code/Python/CMUOnlineMini2/Week6/Assignment/Assignment_6_S26/test_phone_number.py:49: DeprecationWarning: Bitwise inversion '~' on bool is deprecated and will be removed in Python 3.16. This returns the bitwise inversion of the underlying int object and is usually not what you expect from negating a bool. Use the 'not' operator for boolean negation or ~int(x) if you really want the bitwise inversion of the underlying int.
+    assert(~PhoneNumber.is_valid('727256317'))
+
+Assignment_6_S26/test_phone_number.py::test_invalid
+  /home/lex/Code/Python/CMUOnlineMini2/Week6/Assignment/Assignment_6_S26/test_phone_number.py:50: DeprecationWarning: Bitwise inversion '~' on bool is deprecated and will be removed in Python 3.16. This returns the bitwise inversion of the underlying int object and is usually not what you expect from negating a bool. Use the 'not' operator for boolean negation or ~int(x) if you really want the bitwise inversion of the underlying int.
+    assert(~PhoneNumber.is_valid('25702546371'))
+
+Assignment_6_S26/test_phone_number.py::test_invalid
+  /home/lex/Code/Python/CMUOnlineMini2/Week6/Assignment/Assignment_6_S26/test_phone_number.py:51: DeprecationWarning: Bitwise inversion '~' on bool is deprecated and will be removed in Python 3.16. This returns the bitwise inversion of the underlying int object and is usually not what you expect from negating a bool. Use the 'not' operator for boolean negation or ~int(x) if you really want the bitwise inversion of the underlying int.
+    assert(~PhoneNumber.is_valid('717123456789'))
+
+Assignment_6_S26/test_phone_number.py::test_invalid_prefix_code
+Assignment_6_S26/test_phone_number.py::test_invalid_prefix_code
+Assignment_6_S26/test_phone_number.py::test_invalid_prefix_code
+Assignment_6_S26/test_phone_number.py::test_invalid_prefix_code
+Assignment_6_S26/test_phone_number.py::test_invalid_prefix_code
+Assignment_6_S26/test_phone_number.py::test_invalid_prefix_code
+Assignment_6_S26/test_phone_number.py::test_invalid_prefix_code
+Assignment_6_S26/test_phone_number.py::test_invalid_prefix_code
+  /home/lex/Code/Python/CMUOnlineMini2/Week6/Assignment/Assignment_6_S26/test_phone_number.py:61: DeprecationWarning: Bitwise inversion '~' on bool is deprecated and will be removed in Python 3.16. This returns the bitwise inversion of the underlying int object and is usually not what you expect from negating a bool. Use the 'not' operator for boolean negation or ~int(x) if you really want the bitwise inversion of the underlying int.
+    assert(~PhoneNumber.is_valid(test_string))
+
+Assignment_6_S26/test_phone_number.py: 80 warnings
+  /home/lex/Code/Python/CMUOnlineMini2/Week6/Assignment/Assignment_6_S26/test_phone_number.py:67: DeprecationWarning: Bitwise inversion '~' on bool is deprecated and will be removed in Python 3.16. This returns the bitwise inversion of the underlying int object and is usually not what you expect from negating a bool. Use the 'not' operator for boolean negation or ~int(x) if you really want the bitwise inversion of the underlying int.
+    assert(~PhoneNumber.is_valid(test_string))
+
+Assignment_6_S26/test_phone_number.py: 20 warnings
+  /home/lex/Code/Python/CMUOnlineMini2/Week6/Assignment/Assignment_6_S26/test_phone_number.py:73: DeprecationWarning: Bitwise inversion '~' on bool is deprecated and will be removed in Python 3.16. This returns the bitwise inversion of the underlying int object and is usually not what you expect from negating a bool. Use the 'not' operator for boolean negation or ~int(x) if you really want the bitwise inversion of the underlying int.
+    assert(~PhoneNumber.is_valid(test_string))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[33m======================= [32m17 passed[0m, [33m[1m112 warnings[0m[33m in 0.04s[0m[33m =======================[0m
