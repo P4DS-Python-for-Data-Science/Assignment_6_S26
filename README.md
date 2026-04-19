@@ -10,3 +10,6 @@
 - Bina Sawani
 - Alexander Ibrahim
 - Timothy Schultz
+- Nicholas Dunbar
+- Yoru Li
+- Makoto Tomokiyo
